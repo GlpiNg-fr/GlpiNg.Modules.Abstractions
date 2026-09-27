@@ -7,6 +7,10 @@
     <RootNamespace>GlpiNg.Modules.Abstractions</RootNamespace>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <NoWarn>$(NoWarn);CS1591</NoWarn>
+    <!-- Empaqueté comme dépendance de GlpiNg.Plugins.Sdk : les plugins utilisent ces contrats. -->
+    <Version>0.1.0</Version>
+    <Authors>AnthoDingo</Authors>
+    <Description>Contrats partagés entre l'hôte GlpiNg, ses modules et les plugins.</Description>
   </PropertyGroup>
 
 </Project>
