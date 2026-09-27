@@ -17,7 +17,7 @@ public interface ICronTask
 {
     /// <summary>
     /// Identifiant stable et invariant (ex. "history_purge"), indépendant du <see cref="Name"/>
-    /// affiché : sert de clé à <see cref="Models.AutomaticActionState"/> et ne doit jamais changer
+    /// affiché : sert de clé à <c>GlpiNg.Modules.Cron.Models.AutomaticActionState</c> et ne doit jamais changer
     /// une fois publié, sous peine de faire perdre son état à la tâche (nouvelle ligne recréée
     /// avec les réglages par défaut).
     /// </summary>
@@ -31,7 +31,7 @@ public interface ICronTask
 
     /// <summary>
     /// Fréquence par défaut (en minutes) avant la première configuration explicite par un
-    /// administrateur — voir <see cref="Models.AutomaticActionState.FrequencyMinutes"/>.
+    /// administrateur — voir <c>GlpiNg.Modules.Cron.Models.AutomaticActionState.FrequencyMinutes</c>.
     /// </summary>
     int DefaultFrequencyMinutes { get; }
 
