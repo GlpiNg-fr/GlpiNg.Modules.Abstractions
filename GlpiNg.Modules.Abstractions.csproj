@@ -11,6 +11,16 @@
     <Version>0.1.0</Version>
     <Authors>AnthoDingo</Authors>
     <Description>Contrats partagés entre l'hôte GlpiNg, ses modules et les plugins.</Description>
+    <PackageTags>glping;plugin;contracts</PackageTags>
+    <PackageLicenseExpression>AGPL-3.0-or-later</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/GlpiNg-fr/GlpiNg</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/GlpiNg-fr/GlpiNg.Modules.Abstractions</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
 
 </Project>
