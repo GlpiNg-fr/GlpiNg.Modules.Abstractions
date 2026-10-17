@@ -30,6 +30,7 @@ public static class ItemTypes
     // Autres actifs du parc. Comme ci-dessus, ce sont les noms de GLPI — d'où « PDU » en capitales,
     // qui ne suit pas la casse de la classe C# correspondante.
     public const string Printer = "Printer";
+    public const string Monitor = "Monitor";
     public const string Peripheral = "Peripheral";
     public const string NetworkEquipment = "NetworkEquipment";
     public const string Phone = "Phone";
@@ -71,4 +72,12 @@ public static class ItemTypes
 
     /// <summary>Changement : une modification planifiée, préparée et approuvée avant d'être appliquée.</summary>
     public const string Change = "Change";
+
+    // Réservations (module Réservations).
+
+    /// <summary>Autorisation de réserver un objet (<c>ReservationItem</c> dans GLPI).</summary>
+    public const string ReservableItem = "ReservationItem";
+
+    /// <summary>Réservation elle-même : un créneau posé par un utilisateur sur un objet réservable.</summary>
+    public const string Reservation = "Reservation";
 }
