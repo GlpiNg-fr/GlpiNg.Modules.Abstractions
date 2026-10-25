@@ -60,6 +60,9 @@ public static class ItemTypes
     public const string Datacenter = "Datacenter";
     public const string Cluster = "Cluster";
     public const string Appliance = "Appliance";
+
+    /// <summary>Projet (Gestion &gt; Projets).</summary>
+    public const string Project = "Project";
     public const string DatabaseInstance = "DatabaseInstance";
 
     // Assistance (module Assistance).
