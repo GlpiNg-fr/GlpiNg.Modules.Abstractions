@@ -16,6 +16,23 @@ public static class ItemRelationKinds
     public const string Change = "change";
     public const string Knowledge = "knowledge";
 
+    /// <summary>Lignes téléphoniques attribuées à l'objet.</summary>
+    public const string Line = "line";
+
+    /// <summary>Instances de base de données hébergées par l'objet.</summary>
+    public const string Database = "database";
+
+    /// <summary>Objets installés dans une baie, un châssis ou sur un PDU : la cible est le contenant.</summary>
+    public const string Rack = "rack";
+    public const string Enclosure = "enclosure";
+    public const string Pdu = "pdu";
+
+    /// <summary>Objets sur lesquels une licence est affectée.</summary>
+    public const string License = "license";
+
+    /// <summary>Imprimantes compatibles avec une cartouche.</summary>
+    public const string Printer = "printer";
+
     /// <summary>« Analyse d'impact » : l'objet impacte la cible (ordinateur, imprimante, applicatif...).</summary>
     public const string Impact = "impact";
 }
